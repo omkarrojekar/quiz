@@ -1,0 +1,259 @@
+#quiz-form label{
+  font-size: 18px;
+      margin-bottom: 15px;
+}
+
+#quiz-form .radiotextsty {
+  color: #A5A4BF;
+font-size: 16px;
+}
+
+#quiz-form .customradio {
+  display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 9px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+#quiz-form .customradio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+#quiz-form .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 22px;
+  width: 22px;
+  background-color: white;
+  border-radius: 50%;
+  border:1px solid #BEBEBE;
+}
+
+/* On mouse-over, add a grey background color */
+#quiz-form .customradio:hover input ~ .checkmark {
+  background-color: transparent;
+}
+
+/* When the radio button is checked, add a blue background */
+#quiz-form .customradio input:checked ~ .checkmark {
+  background-color: white;
+  border:1px solid #BEBEBE;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+#quiz-form .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+#quiz-form .customradio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+#quiz-form .customradio .checkmark:after {
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #082f4e;
+}
+.element-box, .invoice-w, .big-error-w {
+    padding: 14px 15px;
+    margin-bottom: -4rem;
+}
+body.menu-position-side .layout-w {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  margin: 50px 121px;
+}
+.el-tablo .label {
+    display: block;
+    font-size: 20PX;
+    text-transform: uppercase;
+    color: rgb(148, 176, 238);
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.element-header{
+  font-size: 25px;
+}
+.table tfoot th, .table thead th {
+    font-size: 12px;
+    text-transform: uppercase;
+    border-top: none;
+    color: #082f4e;
+}
+.all-wrapper {
+    max-width: 1400px;
+}
+.auth-box-w {
+  max-width: 450px;
+    margin: 136px auto;
+    background-color: #082f4e;
+    border-radius: 6px;
+    border: 7px solid white;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#register-back {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    /* background: -webkit-gradient(linear, left top, right bottom, from(#D7BBEA), to(#65A8F1));
+    background: linear-gradient(to bottom right, #D7BBEA, #65A8F1); */
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: url(../img/register.jpg) #082f4e;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#dashboard-back {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    /* background: -webkit-gradient(linear, left top, right bottom, from(#D7BBEA), to(#65A8F1));
+    background: linear-gradient(to bottom right, #D7BBEA, #65A8F1); */
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: url(../img/dashboard.jpg) #082f4e;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#thankyou-back {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    /* background: -webkit-gradient(linear, left top, right bottom, from(#D7BBEA), to(#65A8F1));
+    background: linear-gradient(to bottom right, #D7BBEA, #65A8F1); */
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: url(../img/thankyou.jpg) #082f4e;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.auth-box-w .logo-w {
+    text-align: center;
+    padding: 7%;
+}
+.auth-box-w .auth-header {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+    position: relative;
+    z-index: 1;
+    padding-left: 80px;
+    color: #f37d4f;
+    font-size: 28px;
+}
+.auth-box-w form .form-group .pre-icon {
+    color: #f47e50;
+}
+.btn, .all-wrapper .fc-button {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 2px solid transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    line-height: 1.5;
+    border-radius: 4px;
+    -webkit-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,-webkit-box-shadow 0.15s ease-in-out;
+}
+.form-control{
+  border: 2px solid #f37d4f;
+}
+label {
+    margin-bottom: 4px;
+    font-size: 19px;
+    color: #f47e50;
+}
+.btn-primary, .all-wrapper .fc-button.fc-state-active {
+    color: #fff;
+    background-color: #f47e50;
+    border-color: #f47e50;
+}
+.auth-box-w .auth-header:after {
+    content: "";
+    background-color: #ffffff;
+    width: 32px;
+    height: 7px;
+    border-radius: 2px;
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    left: 80px;
+}
+.triangle{
+  text-align: center;
+margin-right: -25%;
+}
+.triangle img{
+  width: 51px;
+    margin-top: -286px;
+}
+@media (max-width: 1650px){
+body.menu-position-side .layout-w {
+  display: -webkit-box;
+display: -ms-flexbox;
+display: flex;
+    margin-top: -117px;
+    margin-bottom: 25px;
+}
+.auth-box-w {
+    max-width: 450px;
+    margin: -19px auto;
+  }
+}
+.content-w {
+    background-color: #fff;
+    background-image: url(../img/bg-pattern.png);
+    background-repeat: no-repeat;
+    background-position: 20px 50px;
+    vertical-align: top;
+}
+
+@media (max-width: 1550px){
+body, body.auth-wrapper .all-wrapper {
+    padding: 119px 93px;
+}
+}
+.all-wrapper.solid-bg-all .content-w {
+    background-image: none;
+    margin-top: 50px;
+}
+.tdimg
+{
+  width: 30px;
+  height: 30px;
+}
